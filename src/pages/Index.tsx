@@ -428,9 +428,7 @@ function Footer() {
           </div>
           <span className="font-display text-lg" style={{ color: "hsl(36 20% 90%)" }}>Дента</span>
         </div>
-        <p className="font-body text-xs" style={{ color: "hsl(210 10% 50%)" }}>
-          © 2024 Дента. Все права защищены. Лицензия № ЛО-77-01-019999
-        </p>
+        <p className="font-body text-xs" style={{ color: "hsl(210 10% 50%)" }}>© 2026 Дента. Все права защищены. Лицензия № ЛО-77-01-019999</p>
         <div className="flex gap-6">
           {["Политика конфиденциальности", "Правовая информация"].map((t) => (
             <button key={t} className="font-body text-xs hover:opacity-80 transition-opacity" style={{ color: "hsl(210 10% 50%)" }}>{t}</button>
